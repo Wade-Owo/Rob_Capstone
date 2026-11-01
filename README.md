@@ -51,7 +51,7 @@ python -m pip install -r requirements-dev.txt
 Run the tests:
 
 ```bash
-pytest
+python -m pytest
 ```
 
 ## Repository layout
@@ -67,7 +67,7 @@ pytest
 
 ## CI
 
-GitHub Actions runs `pytest` on pull requests and pushes to `main`.
+GitHub Actions runs `python -m pytest` on pull requests and pushes to `main`.
 
 ## Staging and rollback plan
 

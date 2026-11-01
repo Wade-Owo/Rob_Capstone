@@ -37,7 +37,7 @@ The full perception pipeline is not yet implemented.
 ## Current Stack
 
 - Python
-- pytest
+- python -m pytest
 - GitHub Actions
 - Planned/being evaluated: Isaac Sim 6.1
 - Planned: ROS 2 Humble or Jazzy depending on the verified Ubuntu environment
@@ -50,7 +50,7 @@ The full perception pipeline is not yet implemented.
 - Open a pull request before merging to `main`.
 - At least one teammate reviews each pull request.
 - Required CI must pass before merge.
-- Run `pytest` locally before opening a PR when practical.
+- Run `python -m pytest` locally before opening a PR when practical.
 - Use short commit messages that explain what changed.
 - Update living docs when assumptions or setup change.
 

@@ -19,7 +19,7 @@ python -m pip install -r requirements-dev.txt
 Run the current test suite:
 
 ```bash
-pytest
+python -m pytest
 ```
 
 Passwords, API keys, access tokens, and other credentials must never be committed.
@@ -48,7 +48,7 @@ Required CI must pass before merge.
 
 ## Testing and CI
 
-GitHub Actions runs the current `pytest` suite on pull requests and pushes to `main`.
+GitHub Actions runs the current `python -m pytest` suite on pull requests and pushes to `main`.
 
 The current test suite begins with a small known-result world-state behavior so CI is real even before the full perception pipeline exists.
 
