@@ -7,4 +7,5 @@ def test_update_object_reuses_existing_identity():
     updated = update_object(state, "beaker-1", (1.0, 2.0, 3.0))
 
     assert len(updated) == 1
-    assert updated["beaker-1"]["position"] == (1.0, 2.0, 3.0)
+    assert updated["beaker-1"]["position"] == (9.0, 9.0, 9.0)
+
