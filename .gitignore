@@ -2,3 +2,10 @@ __pycache__/
 *.py[cod]
 .pytest_cache/
 .venv/
+build/
+install/
+log/
+data/
+exports/
+*.pth
+*.pyc
